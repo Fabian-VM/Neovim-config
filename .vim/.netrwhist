@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='e:/usuarios/alumno/AllPC/Programming/Programming_Apps/Neovim/vimconfigs'
+let g:netrw_dirhist_2='e:/usuarios/alumno/AllPC/Programming/Programming_Apps/Neovim'
+let g:netrw_dirhist_1='e:/usuarios/alumno/AllPC/Programming/Programming_Apps'
+let g:netrw_dirhist_0='e:/usuarios/alumno/AllPC/Programming'
+let g:netrw_dirhist_9='e:/usuarios/alumno/AllPC'
+let g:netrw_dirhist_8='e:/usuarios/alumno'
+let g:netrw_dirhist_7='e:/usuarios/alumno/AllPC/Programming/JavaScript learning'
+let g:netrw_dirhist_6='C:/Users/alumno/AppData/Local/nvim'
+let g:netrw_dirhist_5='C:/Users/alumno/AppData/Local'
+let g:netrw_dirhist_4='C:/Users/alumno/AppData'
