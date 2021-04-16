@@ -16,31 +16,66 @@ set noshowmode "ya que tengo lightline, quito el --insertar-- de la linea
 "colorscheme gruvbox
 "let g:gruvbox_contrast_dark = 'hard'
 "
-""lightline
 "let g:lightline = {
+"      \ 'tab_component_function': {
+"      \   'tabnum': 'LightlineWebDevIcons',
+"      \ },
+"      \ 'active': {
+"      \   'left': [['mode', 'paste'], [], ['modified']],
+"      \   'right': [['percent', 'lineinfo'], ['filetype']]
+"      \ },
+"      \ 'inactive': {
+"      \   'left': [['inactive']],
+"      \ },
+"      \ 'component': {
+"      \   'bufnum': '%n',
+"      \   'inactive': 'inactive'
+"      \ },
 "      \ 'colorscheme': 'gruvbox',
-"      \ }
-"--- --- ---
-
-
-"[0] --- vim-monokai-tasty ---
-"let g:vim_monokai_tasty_italic = 1
-"colorscheme vim-monokai-tasty
+"      \ 'subseparator': {
+"      \   'left': '',
+"      \   'right': ''
+"      \ },
+"      \}
 "
-""lightline
-"let g:lightline = {
-"      \ 'colorscheme': 'Powerline',
-"      \ }
-" --- --- --- 
-
+"--- --- ---
 
 "[0] --- JellyBeans ---
 colorscheme jellybeans
-"lightline
+
 let g:lightline = {
+      \ 'tab_component_function': {
+      \   'tabnum': 'LightlineWebDevIcons',
+      \ },
+      \ 'active': {
+      \   'left': [['mode', 'paste'], [], ['modified']],
+      \   'right': [['percent', 'lineinfo'], ['filetype']]
+      \ },
+      \ 'inactive': {
+      \   'left': [['inactive']],
+      \ },
+      \ 'component': {
+      \   'bufnum': '%n',
+      \   'inactive': 'inactive'
+      \ },
       \ 'colorscheme': 'jellybeans',
-      \ }
+      \ 'subseparator': {
+      \   'left': '',
+      \   'right': ''
+      \ },
+      \}
 " --- --- --- 
+
+"[0] --- Devicons ---
+"function para que los devicons se vean tambien en tabs
+function! LightlineWebDevIcons(n)
+  let l:bufnr = tabpagebuflist(a:n)[tabpagewinnr(a:n) - 1]
+  return WebDevIconsGetFileTypeSymbol(bufname(l:bufnr))
+endfunction
+" --- --- --- 
+
 
 "color de fondo. Debe estar despues de la declaracion del colorscheme
 highlight Normal guibg=#131313
+
+

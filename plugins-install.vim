@@ -12,6 +12,7 @@ Plug 'ap/vim-css-color' "Para que en CSS se vea el color de los #rgb que escriba
 Plug 'pangloss/vim-javascript' " Para que el colorscheme funcione bien con js
 Plug 'othree/html5.vim' "Para que el colorscheme funcione bien con html
 Plug 'Yggdroot/indentLine' " para que se vea una linea de indent
+Plug 'ryanoasis/vim-devicons' "icons
 
 " --- VELOCIDAD ---
 Plug 'scrooloose/nerdtree' " Ventana para buscar archivos comodamente
