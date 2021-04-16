@@ -19,4 +19,7 @@ Plug 'easymotion/vim-easymotion' " Buscar palabras en pantalla a partir de 2 let
 Plug 'christoomey/vim-tmux-navigator' " Para cambiar de ventana en la misma pantalla
 Plug 'vim-scripts/AutoComplPop' " Sugerencias para completar palabras
 
+" --- NodeJS ---
+Plug 'vimlab/split-term.vim' " vsplit automatico al ejecutar NodeJS
+
 call plug#end()

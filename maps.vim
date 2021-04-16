@@ -36,6 +36,9 @@ nnoremap <C-w> :q<CR>
 nnoremap <C-TAB> :tabnext<CR>
 nnoremap <C-S-TAB> :tabprevious<CR> 
 
+"NodeJS run current file with VTerm
+nmap <leader>node :execute 'VTerm node' @%<CR>
+
 "Guardar
-nnoremap <leader>w :w<CR>
+nmap <leader>w :w<CR>
 

@@ -1,4 +1,8 @@
 
+
+"set wildmode=longest,list,full
+"set wildmenu " completado en command mode
+set splitright " para que al hacer :vnew, se abra el buffer a la derecha
 set hidden
 set conceallevel=0 "Para que al usar markdown, los * y _ se muestren y no bugueen texto
 set number " para mostrar los numeros de las lineas
@@ -19,5 +23,5 @@ set showtabline=2
 set mouse=a " (no funciona)para seleccionar texto con el mouse tambien, usando shift+mouse
 syntax enable " es dificil saber la diferencia con 'on'
 set showcmd " muestra los comandos que escribas, pero parece que a mi me viene activado
-
+command node
 

@@ -1,7 +1,7 @@
 
 "[0] --- NerdTree ---
-"para que el arbol se cierre cuando abra un archivo
-let NERDTreeQuitOnOpen=1 
+let NERDTreeQuitOnOpen=1 "para que el arbol se cierre cuando abra un archivo
+let NERDTreeShowHidden=1 "para mostrar los archivos ocultos
 
 "[0] --- AutoComplPop ---
 set complete+=kspell 
