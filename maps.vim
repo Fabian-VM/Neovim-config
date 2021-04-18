@@ -1,6 +1,5 @@
 let mapleader = " "
 
-
 "[0] --- NerdTree ---
 "Abrir arbol en otra ventana al costado
 nmap <leader>nt :NERDTreeFind<CR>

@@ -2,9 +2,8 @@ call plug#begin('e:/usuarios/alumno/AllPC/Programming/Programming_Apps/Neovim/vi
 
 " --- Color Schemes ---
 Plug 'morhetz/gruvbox' " Gruvbox 
-Plug 'patstockwell/vim-monokai-tasty' " Vim-monokai-tasty
-Plug 'dikiaap/minimalist' " Minimalist 
 Plug 'nanotech/jellybeans.vim' " JellyBeans
+Plug 'tomasiser/vim-code-dark' " Codedark (VSCode-like colorscheme)
 
 " --- VISUALES ---
 Plug 'itchyny/lightline.vim' " Statusline lightline
@@ -13,6 +12,7 @@ Plug 'pangloss/vim-javascript' " Para que el colorscheme funcione bien con js
 Plug 'othree/html5.vim' "Para que el colorscheme funcione bien con html
 Plug 'Yggdroot/indentLine' " para que se vea una linea de indent
 Plug 'ryanoasis/vim-devicons' "icons
+Plug 'mhinz/vim-startify' " start screen
 
 " --- VELOCIDAD ---
 Plug 'scrooloose/nerdtree' " Ventana para buscar archivos comodamente
@@ -21,6 +21,6 @@ Plug 'christoomey/vim-tmux-navigator' " Para cambiar de ventana en la misma pant
 Plug 'vim-scripts/AutoComplPop' " Sugerencias para completar palabras
 
 " --- NodeJS ---
-Plug 'vimlab/split-term.vim' " vsplit automatico al ejecutar NodeJS
+Plug 'vimlab/split-term.vim' " ejecutar NodeJS
 
 call plug#end()
